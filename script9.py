@@ -6,8 +6,8 @@ import threading
 from inference import get_model
 
 #İP PORT VE BAUND AYARLARI
-URL = "http://YOUR İP"
-SERIAL_PORT = "YOUR COM"
+URL = "http://SSİD"
+SERIAL_PORT = "COM"
 BAUD_RATE = 115200
 
 # API KEY VE MODEL ID
@@ -237,3 +237,4 @@ while running and cap.isOpened():
 cap.release()
 
 cv2.destroyAllWindows()
+
